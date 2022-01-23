@@ -1,11 +1,12 @@
 import React from "react";
+import EmojiObjectsIcon from '@material-ui/icons/EmojiObjects';
 
 function Header() {
     return(
-        <header className="header">
-            <h1 className="header h1">Keeper</h1>
+        <header >
+            <h1><EmojiObjectsIcon></EmojiObjectsIcon>Keeper</h1>
         </header>
-    )
+    );
 }
 
 export default Header;
